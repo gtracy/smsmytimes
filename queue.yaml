@@ -1,0 +1,13 @@
+queue:
+- name: eventlogger
+  rate: 20/s
+  bucket_size: 1
+  
+- name: athletefinder
+  rate: 500/s
+  bucket_size: 1
+  
+- name: smssender
+  rate: 500/s
+  bucket_size: 1
+

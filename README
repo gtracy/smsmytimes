@@ -1,0 +1,8 @@
+This project has been used as a notification system for Madison's All City Swimming Championships.
+
+The purpose of the app is to provide an SMS notification system for parents. When their child has completed their race,
+they get notified with a text message that lets them know what their race time is as well as their overall rank in the race.
+
+The app is built in Python and deployed to App Engine. It uses Twilio to interface with SMS.
+
+There is some tedious, hand-wiring of results that needs to be done so it isn't terribly robus. I'm storing it here to give me revision control!

@@ -1,0 +1,28 @@
+application: smsmyswim
+version: 2
+runtime: python
+api_version: 1
+
+derived_file_type:
+- python_precompiled
+
+handlers:
+
+- url: /athletefindertask
+  script: main.py
+  login: admin
+
+- url: /scanevents
+  script: main.py
+  login: admin
+  
+- url: /service/.*
+  script: main.py
+  login: admin
+  
+- url: /test
+  script: main.py
+  login: admin
+  
+- url: .*
+  script: main.py
